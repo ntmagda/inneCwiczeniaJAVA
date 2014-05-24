@@ -1,0 +1,7 @@
+package krzeslo;
+import Flower.*;
+
+public class Krzeslo {
+	Flower kwiatek = new Flower("Piekny kwiat");
+
+}

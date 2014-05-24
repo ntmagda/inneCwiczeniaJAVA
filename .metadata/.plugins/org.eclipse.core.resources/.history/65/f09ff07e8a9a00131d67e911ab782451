@@ -1,0 +1,11 @@
+
+public class Command {
+
+	
+	static String[] ciag = {"sdfsD","sdfs","sdfs"};
+	
+	public static void main(String[] args)
+	{
+		System.out.println(ciag[]]);
+	}
+	}

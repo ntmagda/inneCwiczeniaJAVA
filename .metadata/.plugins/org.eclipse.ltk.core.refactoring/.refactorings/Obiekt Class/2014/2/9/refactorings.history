@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;GenericClassReference.java&apos; to &apos;FilledList.java&apos;&#x0A;- Original project: &apos;Obiekt Class&apos;&#x0A;- Original element: &apos;GenericClassReference.java&apos;&#x0A;- Renamed element: &apos;FilledList.java&apos;" description="Rename compilation unit &apos;GenericClassReference.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{GenericClassReference.java" name="FilledList.java" references="false" stamp="1393446691344" version="1.0"/>
+</session>

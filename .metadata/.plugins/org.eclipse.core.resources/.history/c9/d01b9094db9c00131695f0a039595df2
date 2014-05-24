@@ -1,0 +1,35 @@
+import java.util.*;
+public class Recepta {
+
+	public double total = 0;
+	private Formatter f = new Formatter(System.out);
+	public void printTitle()
+	{
+		f.format("%-15s %5s %10s\n", "Towar","Ilosc","Cena");
+		f.format("%-15s %5s %10s\n","-----","-----","-----");
+	}
+	
+	public void print(String name, int qty, double price)
+	{
+		f.format("%-15.15s %5d %10.2f\n", name, qty, price);
+		total+=price;
+	}
+	
+	public void printTotal()
+	{
+		f.format("%-15s %5s %10.6f\n", "Podatek", "", total*0.22);
+		f.format("%-15s %5s %10s\n", "", "", "-----");
+		f.format("%-15s %5s %10.2f\n", "Razem", "", total*1,22);
+	}
+	
+	public static void main(String[] args)
+	{
+		Recepta recepta = new Recepta();
+		recepta.printTitle();
+		recepta.print("Magiczna Fasola", 4, 4.32);
+		recepta.print("Ziarno", 3, 4.13);
+		recepta.print("Lek mama", 6, 2.56);
+		recepta.printTotal();
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Lisra&apos; to &apos;Lista&apos;&#x0A;- Original project: &apos;Wlasna Lista&apos;&#x0A;- Original element: &apos;Lisra&apos;&#x0A;- Renamed element: &apos;Lista&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Lisra&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Lisra.java[Lisra" matchStrategy="1" name="Lista" qualified="false" references="true" similarDeclarations="false" stamp="1393868161614" textual="false" version="1.0"/>
+</session>

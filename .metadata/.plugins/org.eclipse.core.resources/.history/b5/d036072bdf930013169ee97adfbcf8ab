@@ -1,0 +1,16 @@
+package pakiet2;
+public class PAKIET2
+{
+}
+
+class MojaKlasa2
+{
+	int zmienna1;
+	int zmienna2;
+	
+	MojaKlasa2(int i, int j)
+	{
+		zmienna1 = i;
+		zmienna2 = j;
+	}
+}

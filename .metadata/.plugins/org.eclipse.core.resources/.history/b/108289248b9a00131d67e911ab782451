@@ -1,0 +1,6 @@
+import java.util.*;
+public class Kolejka {
+	
+	Queue<Integer> kolejka = new LinkedList<Integer>();
+
+}

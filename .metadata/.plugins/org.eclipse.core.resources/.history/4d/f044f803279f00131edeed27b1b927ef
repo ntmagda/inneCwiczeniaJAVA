@@ -1,0 +1,16 @@
+
+public class test {
+
+	public static void main(String[]args)
+	{
+		Class c = Class.forName("Integer");
+	Class type = new Integer();
+	try{
+	Object a = type.newInstance();
+	System.out.println(a);
+	}catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+	}
+	}

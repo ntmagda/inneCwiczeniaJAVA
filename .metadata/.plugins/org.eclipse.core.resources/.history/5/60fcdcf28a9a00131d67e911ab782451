@@ -1,0 +1,7 @@
+
+import java.util.Queue;
+public class Kolejka {
+	
+	Queue<Command> kolejka = new Queue<Command>();
+
+}

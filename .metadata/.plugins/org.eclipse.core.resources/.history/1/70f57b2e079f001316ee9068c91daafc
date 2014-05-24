@@ -1,0 +1,16 @@
+
+class Obiekt2
+{
+	int liczba;
+}
+class Obiekt3 extends Obiekt2{
+	int liczba2;
+}
+
+class Obiekt4 extends Obiekt 3{
+	int liczba3;
+}
+
+public class Obiekt {
+
+}

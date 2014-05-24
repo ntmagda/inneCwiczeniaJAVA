@@ -1,0 +1,14 @@
+public class kons {
+	int zmienna =0;
+	kons(int i)
+	{
+		zmienna = i;
+		System.out.println("Wywolanie konstruktora ze zmienna");
+	}
+	public static void main()
+	{
+		kons nowy = new kons(4);
+		
+	}
+
+}

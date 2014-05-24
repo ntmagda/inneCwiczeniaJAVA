@@ -1,0 +1,16 @@
+import java.util.*;
+class Number
+{
+int i;
+
+}
+class Assignment{
+
+public static void main(String[] args)
+{
+
+	Number n1 = new Number();
+	Number n2 = new Number();
+
+}
+}

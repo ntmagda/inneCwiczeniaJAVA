@@ -1,0 +1,13 @@
+
+import java.util.*;
+public class Lista {
+	public static void main(String[] args)
+	{
+		List<String> lista = new ArrayList<String>();
+		List<String> wyrazy = new ArrayList<String>();
+		
+		ListIterator<int> itek = new ListIterator<int>();
+	}
+	
+
+}

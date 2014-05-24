@@ -1,0 +1,14 @@
+public class konstruktory {
+	int zmienna =0;
+	konstruktory(int i)
+	{
+		zmienna = i;
+		System.out.println("Wywolanie konstruktora ze zmienna");
+	}
+	public static void main()
+	{
+		konstruktory nowy = new konstruktory(4);
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.*;
+import java.util.regex.Pattern;
+import java.lang.*;
+class Klasa{
+	int a;
+	int b;
+	void wypisz()
+	{
+		System.out.println("a: " +a );
+		System.out.println("b: " +b); 
+	}
+	Klasa(a,b)
+	{
+		this.a = a;
+		this.b = b;
+	}
+}
+
+public class ShowMetods {
+
+	private static Pattern p = Pattern.compile("\\w+\\");
+	public static void main(String[] args)
+	{
+		Class<?> c = Class.forName("Klasa);
+	}
+	
+}

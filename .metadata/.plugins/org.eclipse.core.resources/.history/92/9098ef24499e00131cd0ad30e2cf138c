@@ -1,0 +1,14 @@
+
+public class Dane {
+	int wiek;
+	long numertelefonu;
+	double waga;
+	String imie;
+	
+	Dane(String s)
+	{
+		String regex = "[0-9]+";
+		
+	}
+
+}

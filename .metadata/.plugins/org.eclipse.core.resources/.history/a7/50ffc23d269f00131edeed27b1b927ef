@@ -1,0 +1,15 @@
+
+public class test {
+
+	public static void main(String[]args)
+	{
+	Class type = int.class;
+	try{
+	Object a = type.newInstance();
+	System.out.println(a);
+	}catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+	}
+	}

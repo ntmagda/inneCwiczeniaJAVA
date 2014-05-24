@@ -1,0 +1,30 @@
+
+public class TablicaDouble 
+{
+
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	double[] tworzTablica(int rozmiar, double poczatek, double koniec)
+	{
+		double[] tablica= new double[rozmiar];
+		double iterator;
+		iterator = (koniec - poczatek)/rozmiar;
+		for ( int i =0; i <rozmiar; i ++)
+		{
+			tablica[i] = poczatek+iterator;
+		}
+		return tablica;
+	}
+	
+	void wypiszTablica(double[] tablica)
+	{
+		for ( int i= 0; i < tablica.lenght; i++)
+		{
+			System.out.println(tablica[i]);
+		}
+	}
+	
+}

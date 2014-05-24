@@ -1,0 +1,5 @@
+
+public class Lista {
+	Node<Integer> pierwszy = new Node<Integer>(5);
+
+}

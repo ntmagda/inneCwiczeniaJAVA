@@ -1,0 +1,15 @@
+
+public class Operacje {
+
+	public static void main(String[] args)
+	{
+		
+		String a = new String(); // bezargumentowy 
+		System.out.println(a); // nic nie wypisze
+		String b = new String(new StringBuilder("alala")); // z obiektem StringBuilder
+		System.out.println(b);
+		String c = new String(new StringBuffer ("alala")); // z obiektem StringBuffer
+		System.out.prtinln(c);
+		
+	}
+}

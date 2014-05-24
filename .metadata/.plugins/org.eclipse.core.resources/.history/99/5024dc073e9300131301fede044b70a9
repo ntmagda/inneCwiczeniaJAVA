@@ -1,0 +1,21 @@
+
+public class KlasaString 
+{
+	public static void main(String[] args)
+	{
+		new Jakas();
+		Jakas nowa = new Jakas();
+		
+	}
+}
+
+class Jakas
+{
+	String pierwszy; 
+	String drugi = " moj drugi string";
+	Jakas()
+	{
+		pierwszy =" moj pierwszy string";
+	}
+	
+}

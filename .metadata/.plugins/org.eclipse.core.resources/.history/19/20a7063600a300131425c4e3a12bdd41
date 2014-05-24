@@ -1,0 +1,79 @@
+
+public class Lista<T> {
+
+	private class Node<T> {
+	
+		// skladniki klasy node 
+		T item; // jakis obiekt
+		Node<T> next; // obiekt nastepny
+		Node(){ // konstruktor domyslny - tworzy pusty wezel
+			item = null;
+			next = null;
+		}
+		Node(T item, Node<T> next) // konstruktor tworzy wezel o podanych argumentach
+		{
+			this.item = item;
+			this.next = next;
+		}
+		Node(T item) //konstruktor tworzy wezel pojedynczy - bez nastepnego 
+		{
+			this.item = item;
+			this.next = null;
+		}
+		boolean ifEnd() // sprawdza czy wezel jest wezlem ostatnim 
+		{
+			return (this.next == null); 
+		}
+		
+		public String toString() // zwraca String opisujacy obiekt item
+		{
+			return item.toString();
+		}
+	}
+		Node<T> top = new Node<T>(); // ostatni element listy
+		Node<T> begin = new Node<T>(); // pierwszy element listy
+		
+		public void push(T item){ // wstawia element na koniec listy
+			Node<T> wezel = new Node<T>(item);
+			if(top.item!=null)
+			{
+				top.next = wezel;
+			}
+			else {
+				top.item = wezel.item;
+				top.next = null;
+			}
+		}
+		
+		/* void pushBegin(T item)
+		{
+			Node<T> wezel = new Node<T>(item);
+			if()
+		}*/ // dorobic pozniej, trzbea dodac znacznik previous
+		
+		public T pop() // zwraca ostatni element listy i przypisuje do topa 
+		{
+			Node<T> result = top;
+			if(result.next!= null)
+			{
+				result = result.next;
+			}
+			top = result;
+			return result.item;
+		}
+		
+		public static void main(String[] args)
+		{
+
+			Lista<String> list = new Lista<String>();
+			list.push("mama");
+			list.push("ala");
+			list.push("kopa");
+			System.out.println(list.pop());
+			System.out.println(list.toString());
+			
+			
+		}
+		
+	}
+	

@@ -1,0 +1,14 @@
+
+public class test {
+
+	public static void main(String[]args)
+	{
+	Class type = int.class;
+	try{
+	Object a = type.newInstance();
+	}catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+	}
+	}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/home/magda/Dokumenty/AGH/PROGRAMOWANIE/JAVA/ANDROID/.metadata/.plugins/org.eclipse.jdt.core
+1468492613.index
+1739981955.index

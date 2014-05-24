@@ -1,0 +1,10 @@
+package pakiet2;
+public class MojaKlasa2 
+{
+public static void main(String[] args)
+{
+	MojaKlasa nowa = new MojaKlasa(5,6);
+	System.out.println(nowa.zmienna1 + nowa.zmienna2);
+	
+}
+}

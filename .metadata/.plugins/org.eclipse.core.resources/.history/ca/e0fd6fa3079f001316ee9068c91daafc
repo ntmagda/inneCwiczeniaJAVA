@@ -1,0 +1,25 @@
+
+class Obiekt2
+{
+	int liczba;
+}
+class Obiekt3 extends Obiekt2{
+	int liczba2;
+}
+
+class Obiekt4 extends Obiekt3{
+	int liczba3;
+}
+
+public class Obiekt {
+	
+	void metoda(Class c)
+	{
+		
+		for(Class d : c.getInterfaces())
+		{
+			System.out.println(d.getSimpleName());
+		}
+	}
+
+}

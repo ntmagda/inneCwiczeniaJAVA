@@ -1,0 +1,20 @@
+
+class CountedInteger{
+	private static long counter;
+	private final long id = counter++;
+	public String toString(){ return Long.toString(id);}
+}
+
+
+public class FilledList<T>{
+
+	private Class<T> type;
+	public FilledList
+	
+	public static void main(String[] args)
+	{
+		Class intClass = int.class;
+		Class<Integer> intClassa = int.class;
+		
+	}
+}

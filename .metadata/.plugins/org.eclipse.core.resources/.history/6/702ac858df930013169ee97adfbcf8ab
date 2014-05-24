@@ -1,0 +1,20 @@
+package pakiet1;
+
+public class PAKIET {
+	public static void main(String[] args)
+	{
+		System.out.println("Proba z pakietami1");
+	}
+}
+
+
+class MojaKlasa
+{
+	int zmienna1;
+	int zmienna2;
+	MojaKlasa( int i, int j)
+	{
+		zmienna1 = i;
+		zmienna2 = j;
+	}
+}

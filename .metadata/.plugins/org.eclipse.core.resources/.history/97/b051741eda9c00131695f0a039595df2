@@ -1,0 +1,11 @@
+import java.util.*;
+public class Recepta {
+
+	public double total = 0;
+	private Formatter f = new Formatter(System.out);
+	public void printTitle()
+	{
+		f .format("%-15s %5s %10s\n", "Towar","Ilosc","Cena");
+		f.format("%-15s %5s %10s\n","-----","-----","-----");
+	}
+}

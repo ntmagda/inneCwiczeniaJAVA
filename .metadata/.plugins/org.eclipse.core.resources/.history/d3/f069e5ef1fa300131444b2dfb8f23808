@@ -1,0 +1,14 @@
+import javax.swing.*;
+import java.util.*;
+public class Okno {
+	public static void main(String[] args)
+	{
+		JFrame frame = new JFrame("Ahoj Swing");// ustawia pasek na gorze
+		JLabel label = new JLabel("label");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // umozliwia zamkniecie programu
+		frame.add(label);
+		frame.setSize(300,100); // ustawia rozmiar ramki
+		frame.setVisible(true); // ustawia widocznosc ramki
+	}
+
+}

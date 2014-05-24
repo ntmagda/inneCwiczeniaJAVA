@@ -1,0 +1,19 @@
+
+public class KlasaString 
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}
+
+class Jakas
+{
+	String pierwszy; 
+	String drugi = " moj drugi string";
+	Jakas()
+	{
+		pierwszy =" moj pierwszy string";
+	}
+	
+}

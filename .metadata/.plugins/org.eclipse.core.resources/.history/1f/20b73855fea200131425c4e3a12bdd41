@@ -1,0 +1,11 @@
+
+public class Lista {
+	
+	public static void main(String[] args)
+	{
+		Node<Integer> pierwszy = new Node<Integer>(5);
+		pierwszy.pop();
+		
+	}
+
+}

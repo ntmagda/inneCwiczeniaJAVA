@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;Oznaczanie figur [false true]/src/(default package)&apos;&#x0A;- Original project: &apos;Shape&apos;&#x0A;- Destination element: &apos;Oznaczanie figur [false true]/src/(default package)&apos;&#x0A;- Original elements:&#x0A;     Shape1.java&#x0A;     RandomGenerator.java&#x0A;     Square.java&#x0A;     Shape.java&#x0A;     Triangle.java&#x0A;     Circle.java" description="Copy compilation units" destination="=Oznaczanie figur \[false true\]/src&lt;" element1="/src&lt;{Shape1.java" element2="/src&lt;{RandomGenerator.java" element3="/src&lt;{Square.java" element4="/src&lt;{Shape.java" element5="/src&lt;{Triangle.java" element6="/src&lt;{Circle.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1393432842826" units="6" version="1.0"/>
+</session>

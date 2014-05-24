@@ -1,0 +1,11 @@
+
+public class Command {
+
+	
+	static String[] ciag = {"pierwszy","drugi","trzeci", "czwarty","piatey", "szosty"};
+	
+	public static void main(String[] args)
+	{
+		System.out.println(ciag[2]);
+	}
+	}

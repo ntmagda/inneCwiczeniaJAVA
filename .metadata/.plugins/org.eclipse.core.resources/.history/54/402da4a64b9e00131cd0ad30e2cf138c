@@ -1,0 +1,42 @@
+
+import java.util.regex.*;
+public class Dane {
+	int wiek;
+	long numertelefonu;
+	double waga;
+	String imie;
+	
+	Dane(String s)
+	{
+		/*//dopasowuje wiek
+		String regex = "[0-9]+";
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(s);
+		if(matcher.find())
+			wiek = Integer.parseInt(matcher.group());
+		//dopasowuje imie
+		String regex2 = "[A-Z]+";
+		Pattern pattern2 = Pattern.compile(regex2);
+		Matcher matcher2 = pattern2.matcher(s);
+		if(matcher2.find())
+			imie = matcher2.group();
+		*///dopasowuje wage
+		Pattern pattern3 = Pattern.compile(".[0-9]+");
+		Matcher matcher3 = pattern3.matcher(s);
+		if(matcher3.find())
+			waga = Double.parseDouble(matcher3.group());
+
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		String wejscie = " ALA 45 67.45";
+		Dane Ala = new Dane(wejscie);
+		System.out.println(Ala.imie);
+		System.out.println(Ala.waga);
+		System.out.println(Ala.wiek);
+		
+	}
+
+}

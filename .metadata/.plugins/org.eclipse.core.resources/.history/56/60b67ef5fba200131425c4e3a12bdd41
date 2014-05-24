@@ -1,0 +1,26 @@
+
+public class Node<T> {
+	
+	T item;
+	Node<T> next;
+	Node(){
+		item = null;
+		next = null;
+	}
+	Node(T item, Node<T> next)
+	{
+		this.item = item;
+		this.next = next;
+	}
+	Node<T> end = new Node();
+	
+	public void push(Node<T> item){
+		if(end!=null)
+		{
+			end.next = item;
+			item.next = null;
+		}
+		
+	}
+
+}

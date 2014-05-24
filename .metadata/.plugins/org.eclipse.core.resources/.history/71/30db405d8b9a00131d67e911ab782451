@@ -1,0 +1,13 @@
+import java.util.*;
+public class Kolejka {
+	
+	Queue<Command> kolejka = new LinkedList<Command>();
+	void wstawianie(int rozmiar)
+	{
+		for( int i =0 ; i<rozmiar;i++)
+		{
+			
+		}
+	}
+
+}

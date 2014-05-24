@@ -1,0 +1,40 @@
+class Connection {
+	private static int count;
+	private Connection()
+	{
+		System.out.println("Uruchominie konstruktora Connection");
+	}
+	// Allow creation via static method:
+	
+	static Connection makeConnection()
+	{
+		count++;
+		return new Connection();
+	}
+	
+}
+
+public class ConnectionManager 
+{
+	static Connection[] tablica = new Connection[5];
+	
+	ConnectionManager()
+	{
+	for(int k =0; k <5; k++)
+	{
+		if(tablica[k]==null)
+		{
+			tablica[k] = Connection.makeConnection();	
+		}	
+	}
+	}
+	
+	public static void main(String[] args) 
+	{		
+		ConnectionManager cm = new ConnectionManager();
+		for ( int l =0 ; l <6; l++)
+		{
+			System.out.println(tablica[l]);
+		}
+	}				  	
+} 

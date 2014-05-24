@@ -1,0 +1,19 @@
+
+public class Command {
+
+	
+	static String[] ciag = {"pierwszy","drugi","trzeci", "czwarty","piatey", "szosty"};
+	
+	void operation()
+	{
+		for(String a :ciag)
+		{
+			System.out.println(a);
+		}
+	}
+	public static void main(String[] args)
+	{
+		Command nowy = new Command();
+		nowy.operation();
+	}
+	}

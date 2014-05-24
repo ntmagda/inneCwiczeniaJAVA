@@ -1,0 +1,30 @@
+
+public class ConnectionManager {
+	
+	int rozmiar = 6;
+	private String[] tablica = new String[rozmiar];
+	String tworzObiekt(String s)
+	{
+		for ( int i =0; i < rozmiar; i++)
+		{
+			
+		}
+	}
+
+}
+
+class Connection
+{
+	int zmienna1; 
+	String zmienna2;
+	
+	Connection()
+	{
+		
+	}
+	Connection(int i, String s)
+	{
+		zmienna1 = i;
+		zmienna2 = s;
+	}
+}

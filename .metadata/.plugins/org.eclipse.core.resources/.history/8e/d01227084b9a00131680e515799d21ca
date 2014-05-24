@@ -1,0 +1,10 @@
+
+public class Lista {
+	public static void main(String[] args)
+	{
+		List<int> lista = new ArrayList<int>();
+		ListIterator<int> itek = new ListIterator<int>
+	}
+	
+
+}

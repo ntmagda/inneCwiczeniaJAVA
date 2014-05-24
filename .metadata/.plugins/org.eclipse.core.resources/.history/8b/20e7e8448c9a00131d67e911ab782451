@@ -1,0 +1,39 @@
+import java.util.*;
+public class Kolejka {
+	
+	int rozmiar;
+	Kolejka()
+	{
+		this.rozmiar = kolejka.size();
+	}
+	Queue<Command> kolejka = new LinkedList<Command>();
+	void wstawianie(int rozmiar)
+	{
+		for( int i =0 ; i<rozmiar;i++)
+		{
+			Command a = new Command();
+			kolejka.add(a);
+		}
+	}
+	Command peek()
+	{
+		return kolejka.peek();
+	}
+
+}
+
+class Klasa{
+	
+	
+	
+	public static void main(String[] args)
+	{
+		Kolejka kol = new Kolejka();
+		kol.wstawianie();
+		for( int i=0; i <kol.rozmiar;i++)
+		{
+			kol.peek().operation();
+		}
+		
+	}
+}

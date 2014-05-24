@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cycle.Cycle&apos; to &apos;Cycle1&apos;&#x0A;- Original project: &apos;Cycle1&apos;&#x0A;- Original element: &apos;cycle.Cycle&apos;&#x0A;- Renamed element: &apos;cycle.Cycle1&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Cycle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cycle{Cycle.java[Cycle" matchStrategy="1" name="Cycle1" qualified="false" references="true" similarDeclarations="false" stamp="1392735913696" textual="false" version="1.0"/>
+</session>

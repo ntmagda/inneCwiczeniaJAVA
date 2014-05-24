@@ -1,0 +1,29 @@
+
+public class Finalize1 {
+	boolean CheckedOut = false;
+	Finalize1(boolean checkout)
+	{
+		CheckedOut = checkout;
+	}
+	
+	void CheckIn()
+	{
+		CheckedOut = false;
+	}
+	
+	public void finalize()
+	{
+		if(!CheckedOut)
+		{
+			System.out.println("Blad nadal checked out");
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		Finalize1 nowy = new Finalize1(true);
+		nowy.CheckIn();
+		Finalize1 nowy2 = new Finalize1(false);
+		System.gc();
+	}
+}

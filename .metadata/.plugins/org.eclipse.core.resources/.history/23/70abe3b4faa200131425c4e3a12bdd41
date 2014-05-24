@@ -1,0 +1,16 @@
+
+public class Node<T> {
+	
+	T item;
+	T next;
+	Node(){
+		item = null;
+		next = null;
+	}
+	Node(T item, T next)
+	{
+		this.item = item;
+		this.next = next;
+	}
+
+}
